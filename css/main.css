@@ -25,6 +25,12 @@ html {
     background: none;
     color: black;
     margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.jumbo-about{
+    padding:0;
 }
 
 .jumbotron h1 {
@@ -36,7 +42,7 @@ html {
     font-size: 1.7rem;
 }
 
-.jumbotron  .text-family-name {
+.jumbotron  .text-special {
     color: rgb(208, 255, 0);
 }
 
