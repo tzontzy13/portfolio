@@ -48,18 +48,26 @@ body {
     color: rgb(208, 255, 0);
 }
 
+h1 .text-special{
+    color: rgb(208, 255, 0);
+}
+
+.carousel-item p {
+    color: black;
+}
+
 .container {
     margin-top: 20px;
 }
 
 .links {
     font-size: 250%;
-    color:rgba(0, 0, 0, 0.65);
+    color:rgba(0, 0, 0, 0.8);
 }
 
 .kontact {
     font-size: 160%;
-    color:rgba(0, 0, 0, 0.65);
+    color:rgba(0, 0, 0, 0.8);
     border: 1px solid rgb(208, 255, 0);
 }
 
@@ -67,7 +75,7 @@ body {
     background-color:rgb(208, 255, 0);
     color:black;
     transition: all 0.5s ease-out;
-    border: 3px solid rgba(0, 0, 0, 0.65);
+    border: 3px solid rgba(0, 0, 0, 0.8);
 }
 
 
@@ -95,7 +103,7 @@ a:hover {
 }
 
 .text-special-2 {
-    color: rgba(0, 0, 0, 0.65);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .text-special-2:hover {
@@ -234,3 +242,8 @@ a:hover {
           width: 150px;
           height: 150px;
           max-height: 29vh; }
+
+.carousel-item{
+    padding-left: 19px;
+    padding-right: 19px;
+}
