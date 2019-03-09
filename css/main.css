@@ -116,3 +116,25 @@ a:hover {
 .menu-right {
     padding-top: 8%;
 }
+
+.menu-btn .btn-line {
+    border-radius: 10px;
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: rgb(208, 255, 0);
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s; }
+  .menu-btn.close .btn-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px); }
+  .menu-btn.close .btn-line:nth-child(2) {
+    opacity: 0; }
+  .menu-btn.close .btn-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px); }
+
+.menu {
+    visibility: hidden;
+}
+
+.menu.show {
+    visibility: visible;
+}
