@@ -109,6 +109,11 @@ a:hover {
     padding: 50px;
 }
 
+.email_tel {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .menu-btn{
     z-index: 3;
 }
