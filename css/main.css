@@ -212,12 +212,6 @@ a:hover {
   transition-delay: 0.4s; }
 
   @media screen and (max-width: 768px) {
-    main {
-      align-items: center;
-      text-align: center; }
-      main .lg-heading {
-        line-height: 1;
-        margin-bottom: 1rem; }
     ul.menu-nav,
     div.menu-branding {
       float: none;
@@ -225,7 +219,7 @@ a:hover {
       min-height: 0; }
       ul.menu-nav.show,
       div.menu-branding.show {
-        transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0); }
     .menu-nav {
       height: 70vh;
       transform: translate3d(0, 100%, 0);
