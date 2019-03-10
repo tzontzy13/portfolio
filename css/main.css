@@ -45,11 +45,11 @@ body {
 }
 
 .jumbotron  .text-special {
-    color: rgb(156, 58, 58);
+    color: rgb(204, 43, 43);
 }
 
 h1 .text-special{
-    color: rgb(156, 58, 58);
+    color: rgb(204, 43, 43);
 }
 
 p .text-special{
@@ -72,11 +72,11 @@ p .text-special{
 .kontact {
     font-size: 160%;
     color:rgba(0, 0, 0, 0.8);
-    border: 1px solid rgb(156, 58, 58);
+    border: 1px solid rgb(204, 43, 43);
 }
 
 .kontact:hover {
-    background-color:rgb(156, 58, 58);
+    background-color:rgb(204, 43, 43);
     color:black;
     transition: all 0.5s ease-out;
     border: 3px solid rgba(0, 0, 0, 0.8);
@@ -84,7 +84,7 @@ p .text-special{
 
 
 .links:hover {
-    color:rgb(156, 58, 58);
+    color:rgb(204, 43, 43);
     transition: all 0.5s ease-out;
 }
 
@@ -98,7 +98,7 @@ a:hover {
     border-radius: 20%;
     width: 250px;
     height: 250px;
-    border: rgb(156, 58, 58) 3px solid;
+    border: rgb(204, 43, 43) 3px solid;
 }
 
 .pic-of-me:hover {
@@ -137,7 +137,7 @@ a:hover {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: rgb(156, 58, 58);
+    background: rgb(204, 43, 43);
     transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s; }
   .menu-btn.close .btn-line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px); }
@@ -190,14 +190,14 @@ a:hover {
         width: 250px;
         height: 250px;
         border-radius: 50%;
-        border: solid 3px rgb(156, 58, 58); }
+        border: solid 3px rgb(204, 43, 43); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.6s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: rgb(156, 58, 58); }
+      color: rgb(204, 43, 43); }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -209,7 +209,7 @@ a:hover {
     text-decoration: none;
     transition: all 0.6s ease-out; }
     .menu .nav-link:hover {
-      color: rgb(156, 58, 58); }
+      color: rgb(204, 43, 43); }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -260,8 +260,8 @@ a:hover {
 
 .btn-danger {
     color: black;
-    background-color: rgb(156, 58, 58);
-    border-color: rgb(156, 58, 58);
+    background-color: rgb(204, 43, 43);
+    border-color: rgb(204, 43, 43);
 }
 
 .project{
