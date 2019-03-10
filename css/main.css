@@ -52,6 +52,10 @@ h1 .text-special{
     color: rgb(156, 58, 58);
 }
 
+p .text-special{
+    font-weight: 700;
+}
+
 .carousel-item p {
     color: black;
 }
@@ -242,8 +246,20 @@ a:hover {
           width: 150px;
           height: 150px;
           max-height: 29vh; }
+        }
 
 .carousel-item{
     padding-left: 19px;
     padding-right: 19px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0,0,0,1);
+}
+
+.btn-danger {
+    color: black;
+    background-color: rgb(156, 58, 58);
+    border-color: rgb(156, 58, 58);
 }
