@@ -263,3 +263,7 @@ a:hover {
     background-color: rgb(156, 58, 58);
     border-color: rgb(156, 58, 58);
 }
+
+.project{
+    margin-left: 24%;
+}
